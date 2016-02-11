@@ -49,7 +49,7 @@
                                                 <action selector="editToggle:" destination="BYZ-38-t0r" id="tMO-AU-woR"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="JXe-hd-uvE">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="JXe-hd-uvE">
                                             <color key="tintColor" red="1" green="0.1054760985" blue="0.2465473215" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <action selector="addToggle:" destination="BYZ-38-t0r" id="SeD-GU-amn"/>
