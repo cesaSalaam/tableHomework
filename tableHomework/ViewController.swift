@@ -176,6 +176,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate
             tableView.reloadData()
         }
     }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        NSLog("You selected cell number: \(indexPath.row)!")
+        self.performSegueWithIdentifier("inputViewSeg", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
