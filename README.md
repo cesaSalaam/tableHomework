@@ -1,3 +1,4 @@
 # tableHomework
 Ios Mobile application Homework
-This application shows how table views work
+
+This application implements a tableView, alerts, adding data to table view and saving data to coreData
