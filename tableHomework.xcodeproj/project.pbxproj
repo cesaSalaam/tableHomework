@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D94E53771C7B96C100521F4E /* inputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E53761C7B96C100521F4E /* inputViewController.swift */; };
 		D99B27A01C6C4CAF00250992 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B279F1C6C4CAF00250992 /* AppDelegate.swift */; };
 		D99B27A21C6C4CAF00250992 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B27A11C6C4CAF00250992 /* ViewController.swift */; };
 		D99B27A51C6C4CAF00250992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99B27A31C6C4CAF00250992 /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D94E53761C7B96C100521F4E /* inputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inputViewController.swift; sourceTree = "<group>"; };
 		D99B279C1C6C4CAF00250992 /* tableHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99B279F1C6C4CAF00250992 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D99B27A11C6C4CAF00250992 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				D99B27AB1C6C4CAF00250992 /* LaunchScreen.storyboard */,
 				D99B27AE1C6C4CAF00250992 /* Info.plist */,
 				D99B27A61C6C4CAF00250992 /* tableHomework.xcdatamodeld */,
-				D94E53761C7B96C100521F4E /* inputViewController.swift */,
 			);
 			path = tableHomework;
 			sourceTree = "<group>";
@@ -268,7 +265,6 @@
 				D99B27A21C6C4CAF00250992 /* ViewController.swift in Sources */,
 				D99B27A01C6C4CAF00250992 /* AppDelegate.swift in Sources */,
 				D99B27A81C6C4CAF00250992 /* tableHomework.xcdatamodeld in Sources */,
-				D94E53771C7B96C100521F4E /* inputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

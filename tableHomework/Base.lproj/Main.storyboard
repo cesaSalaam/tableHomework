@@ -1,53 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pD0-tn-eOa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pD0-tn-eOa">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Input View Controller-->
-        <scene sceneID="YhB-Rv-89V">
-            <objects>
-                <viewController id="WGI-Ul-4w6" customClass="inputViewController" customModule="tableHomework" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PfL-sa-MJQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="FV9-4O-dkT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5zO-gr-dHF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter Some Text:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="czV-jI-y5z">
-                                <rect key="frame" x="16" y="73" width="343" height="276"/>
-                                <color key="backgroundColor" red="0.25682240080000002" green="0.59489182689999998" blue="0.5204165529" alpha="0.48160021549999998" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="276" id="sdW-rJ-LxM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" enablesReturnKeyAutomatically="YES"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="czV-jI-y5z" firstAttribute="top" secondItem="PfL-sa-MJQ" secondAttribute="bottom" constant="53" id="5ew-e4-5DV"/>
-                            <constraint firstItem="czV-jI-y5z" firstAttribute="trailing" secondItem="5zO-gr-dHF" secondAttribute="trailingMargin" id="Gbd-rG-ypM"/>
-                            <constraint firstItem="FV9-4O-dkT" firstAttribute="top" secondItem="czV-jI-y5z" secondAttribute="bottom" constant="318" id="Zgw-Ue-Yab"/>
-                            <constraint firstItem="czV-jI-y5z" firstAttribute="leading" secondItem="5zO-gr-dHF" secondAttribute="leadingMargin" id="t1v-hf-Je0"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="5ew-e4-5DV"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <navigationItem key="navigationItem" id="AM6-Nz-DWI"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KT6-Wc-Nf3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1764.5" y="-438.5"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -71,9 +29,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="350" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="WGI-Ul-4w6" kind="push" identifier="inputViewSeg" id="n8X-48-qwp"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -104,7 +59,7 @@
                                     <constraint firstAttribute="height" constant="21" id="92t-Ha-8CZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>

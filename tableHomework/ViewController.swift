@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  tableHomework
 //
-//  Created by Lifoma Salaam on 2/10/16.
+//  Created by Cesa Salaam on 2/10/16.
 //  Copyright © 2016 CesaSalaam. All rights reserved.
 //
 
@@ -10,7 +10,6 @@ import UIKit
 import CoreData
 
 //Cesa Salaam
-
 //@02764560
 
 class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate{
@@ -34,7 +33,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate
         return true
     }
     @IBAction func editingBeganTextField(sender: UITextField) {
-        
+        //changes the smiley face when editting begins
         self.smileyFaceLabel.text = ":("
     }
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -77,6 +76,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate
     }
 
     func saveName(name: String) {
+        //savinf data to coredata
         //1
         let appDelegate =
         UIApplication.sharedApplication().delegate as! AppDelegate

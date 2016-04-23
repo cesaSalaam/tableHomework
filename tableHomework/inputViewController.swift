@@ -8,8 +8,3 @@
 
 import UIKit
 
-class inputViewController: UIViewController {
-    
-    
-    
-}
